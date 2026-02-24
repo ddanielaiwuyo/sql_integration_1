@@ -23,7 +23,9 @@ CREATE TABLE music_library;
 
 ### Clone Repository
 ```bash
-git clone https://github.com/ddanielaiwuyo/sql_integration_1.git
+git clone https://github.com/ddanielaiwuyo/sql_integration_1.git ~/sql_integration_1
+
+cd ~/sql_integration_1
 ```
 
 ### Folder Structure
