@@ -1,4 +1,4 @@
-from album import Album
+from lib.album import Album
 
 class AlbumRepository:
     def __init__(self, conn):

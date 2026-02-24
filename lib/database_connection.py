@@ -1,7 +1,7 @@
 import traceback
 import psycopg
 import os
-from artist import Artist
+from lib.artist import Artist
 from psycopg.rows import dict_row
 
 class DatabaseConnection:
@@ -17,6 +17,7 @@ class DatabaseConnection:
         with open(path, "r") as f:
             seed = f.read()
 
+        self._check_connection()
         with self.connection.cursor() as cursor:
             cursor.execute(seed)
             self.connection.commit()

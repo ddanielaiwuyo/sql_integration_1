@@ -1,8 +1,8 @@
 import traceback
-from artist_repository import ArtistRepository
-from artist import Artist
+from lib.database_connection import DatabaseConnection
+from lib.artist_repository import ArtistRepository
+from lib.artist import Artist
 from album_repository import AlbumRepository
-from database_connection import DatabaseConnection
 
 SEED_PATH = "seeds/music_library.sql"
 

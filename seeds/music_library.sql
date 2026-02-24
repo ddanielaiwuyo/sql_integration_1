@@ -26,7 +26,7 @@ VALUES ('Pixies', 'Rock'),
 
 
 INSERT INTO albums(title, release_year, artist_id)
-VALUES ('Doolitte', '1983-01-01', 1),
+VALUES ('Doolittle', '1983-01-01', 1),
 ('Abbey Road', '1969-01-01', 2),
 ('Dig Bill Evans', '2021-05-01', 3),
 ('Eyelid Movies', '2010-01-01', 4);
