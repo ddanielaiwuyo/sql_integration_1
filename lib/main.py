@@ -28,6 +28,12 @@ def main():
         for album in all_albums:
             print(f"  {album.album_id:<5} {album.title:<25} {album.release_year}" )
 
+
+        albums = album_repo.find(1)
+        for album in albums:
+            print(f"  {album.album_id:<5} {album.title:<25} {album.release_year}" )
+        
+
     except Exception as e:
         print(" [main] database error frmo pyscopg")
         traceback.print_exc()

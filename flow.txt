@@ -1,0 +1,6 @@
+* What is a Database(s)
+* Why
+* How are they used in applications
+	- Postal Service, Chat Applications
+
+* Conceptual Prototype
