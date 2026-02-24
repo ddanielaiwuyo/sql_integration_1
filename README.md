@@ -4,7 +4,7 @@
 
 
 ### Requirments
-Make sure that `psql`, and `python` are installed on your local system, I use homebrew
+Make sure that `psql`, `git` and `python` are installed on your local system, I use homebrew
 for most of my installations because is more convinient for me. Feel free to skip if you 
 already have them configured
 
@@ -21,6 +21,10 @@ CREATE TABLE music_library;
 # you can type Ctrl+D and that wil close the terminal session
 ```
 
+### Clone Repository
+```bash
+git clone https://github.com/ddanielaiwuyo/sql_integration_1.git
+```
 
 ### Folder Structure
 ```
